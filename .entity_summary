@@ -1,0 +1,3 @@
+- Terminverwaltung (terminverwaltung): kunde[applookup/select], termindatum[date/datetimeminute], terminart[lookup/select], dauer[number], ort[string/text], status[lookup/radio], notizen_termin[string/textarea]
+  → kunde links to app_id 6a293e06faed29ff614e6b61
+- Kundenverwaltung (kundenverwaltung): vorname[string/text], nachname[string/text], email[string/email], telefon[string/tel], strasse[string/text], hausnummer[string/text], plz[string/text], ort[string/text], notizen_kunde[string/textarea]

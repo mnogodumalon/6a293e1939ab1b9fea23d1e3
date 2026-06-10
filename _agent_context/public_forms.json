@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "entity": "terminverwaltung",
+      "app_id": "6a293e0847ef3857f84aa150",
+      "path": "/rest/apps/6a293e0847ef3857f84aa150/records",
+      "allowed_fields": [
+        "termindatum",
+        "terminart",
+        "dauer",
+        "ort",
+        "status",
+        "notizen_termin"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Terminverwaltung — Formular"
+    },
+    {
+      "entity": "kundenverwaltung",
+      "app_id": "6a293e06faed29ff614e6b61",
+      "path": "/rest/apps/6a293e06faed29ff614e6b61/records",
+      "allowed_fields": [
+        "vorname",
+        "nachname",
+        "email",
+        "telefon",
+        "strasse",
+        "hausnummer",
+        "plz",
+        "ort",
+        "notizen_kunde"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Kundenverwaltung — Formular"
+    }
+  ]
+}

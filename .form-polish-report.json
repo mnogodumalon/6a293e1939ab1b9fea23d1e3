@@ -1,0 +1,16 @@
+{
+  "entities": {
+    "Terminverwaltung": {
+      "placeholders_set": 7,
+      "defaults_keys": ["termindatum", "terminart", "dauer", "status"],
+      "computed_keys": [],
+      "reason": "Reine Termin-Erfassungsform — keine berechenbaren Felder. Keine Preise, kein Lookup-Produkt, kein Datumspaar für Dauer-Differenz (nur einzelnes termindatum + dauer_in_minuten). Status-Defaults setzen die typische Terminablauf-Pipeline auf."
+    },
+    "Kundenverwaltung": {
+      "placeholders_set": 9,
+      "defaults_keys": [],
+      "computed_keys": [],
+      "reason": "Reine Kundenstammdaten. Keine Preise, Daten oder Berechnungen. Felder: Name, Kontakt, Adresse, Notizen. Keine Defaults sinnvoll (optional — Adresse, Kontakt können später erfasst werden; kein Pflicht-Status wie in Terminverwaltung)."
+    }
+  }
+}

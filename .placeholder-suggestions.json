@@ -1,0 +1,22 @@
+{
+  "TerminverwaltungDialog.tsx": {
+    "kunde": "Kunde auswählen",
+    "termindatum": "Wann findet der Termin statt?",
+    "terminart": "z. B. Erstgespräch, Beratung",
+    "dauer": "z. B. 60",
+    "ort": "z. B. Konferenzraum A",
+    "status": "z. B. Geplant, Bestätigt",
+    "notizen_termin": "Agenda, Vorbereitung, Follow-up..."
+  },
+  "KundenverwaltungDialog.tsx": {
+    "vorname": "z. B. Max",
+    "nachname": "z. B. Mustermann",
+    "email": "z. B. max@example.com",
+    "telefon": "z. B. +49 123 4567890",
+    "strasse": "z. B. Hauptstraße",
+    "hausnummer": "z. B. 42",
+    "plz": "z. B. 10115",
+    "ort": "z. B. Berlin",
+    "notizen_kunde": "Branche, Größe, Priorität, besondere Wünsche..."
+  }
+}
