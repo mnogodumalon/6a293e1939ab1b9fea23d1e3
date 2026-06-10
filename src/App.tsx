@@ -6,7 +6,6 @@ import { ErrorBoundary } from '@/components/ErrorBoundary';
 import { ErrorBusProvider } from '@/components/ErrorBus';
 import { Layout } from '@/components/Layout';
 import DashboardOverview from '@/pages/DashboardOverview';
-import { WorkflowPlaceholders } from '@/components/WorkflowPlaceholders';
 import AdminPage from '@/pages/AdminPage';
 import TerminverwaltungPage from '@/pages/TerminverwaltungPage';
 import TerminverwaltungDetailPage from '@/pages/TerminverwaltungDetailPage';
@@ -31,7 +30,7 @@ export default function App() {
               {/* <public:routes> */}
               {/* </public:routes> */}
               <Route element={<Layout />}>
-                <Route index element={<><div className="mb-8"><WorkflowPlaceholders /></div><DashboardOverview /></>} />
+                <Route index element={<DashboardOverview />} />
                 <Route path="terminverwaltung" element={<TerminverwaltungPage />} />
                 <Route path="terminverwaltung/:id" element={<TerminverwaltungDetailPage />} />
                 <Route path="kundenverwaltung" element={<KundenverwaltungPage />} />
